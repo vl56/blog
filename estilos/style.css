@@ -2,8 +2,7 @@
 
 
 body, html {
-    background-image: url(/img/logo_plano.jpeg);
-    background-attachment: scroll;
+    background-color: #333;
     font-family: serif,sans-serif;
     padding: 0px;
     box-sizing: border-box;
