@@ -1,72 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilos/style.css">
-        <title>Contato</title>
-            <!-- Inclua a biblioteca html2pdf -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-  
-    </head>
-        <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário PDF e WhatsApp</title>
+  <!-- Inclua a biblioteca html2pdf -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+</head>
+<body>
 
-            <h2>Peça seu orçamento agora mesmo</h2>
+  <h1>Formulário PDF e WhatsApp</h1>
 
-                <div class="formulario">  
+  <form id="myForm">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
 
-                    <form id="myForm">
-                        <label for="nome"><p>Nome:</p></label>
-                        <input type="text" id="nome" name="nome" required>
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" required>
 
-                        <label for="telefone"><p>Telefone:</p></label>
-                        <input type="tel" id="telefone" name="telefone" required>
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" required></textarea>
 
-                        <label for="mensagem"><p>Mensagem:</p></label>
-                        <textarea id="mensagem" name="mensagem" required></textarea>
+    <button type="button" onclick="gerarPDF()">Gerar PDF e Enviar pelo WhatsApp</button>
+  </form>
 
-                        <button type="button" onclick="gerarPDF()"><p>Enviar</p></button>
-                    </form>
-                </div>
+  <script>
+    function gerarPDF() {
+      var nome = document.getElementById('nome').value;
+      var telefone = document.getElementById('telefone').value;
+      var mensagem = document.getElementById('mensagem').value;
 
-                <script>
-                    function gerarPDF() {
-                      var nome = document.getElementById('nome').value;
-                      var telefone = document.getElementById('telefone').value;
-                      var mensagem = document.getElementById('mensagem').value;
-                
-                      // Criar um elemento HTML temporário para gerar o PDF
-                      var pdfContainer = document.createElement('div');
-                      pdfContainer.innerHTML = `
-                        <h2>Peça seu orçamento agora mesmo</h2>
-                        <p><strong>Nome:</strong> ${nome}</p>
-                        <p><strong>Telefone:</strong> ${telefone}</p>
-                        <p><strong>Mensagem:</strong> ${mensagem}</p>
-                      `;
-                
-                      // Configurar as opções para a geração do PDF
-                      var options = {
-                        margin: 10,
-                        filename: 'formulario.pdf',
-                        image: { type: 'jpeg', quality: 0.98 },
-                        html2canvas: { scale: 2 },
-                        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-                      };
-                
-                      // Gerar o PDF e obter o arquivo como Blob
+      // Criar um elemento HTML temporário para gerar o PDF
+      var pdfContainer = document.createElement('div');
+      pdfContainer.innerHTML = `
+        <h2>Informações do Formulário</h2>
+        <p><strong>Nome:</strong> ${nome}</p>
+        <p><strong>Telefone:</strong> ${telefone}</p>
+        <p><strong>Mensagem:</strong> ${mensagem}</p>
+      `;
 
-                      html2pdf(pdfContainer, options).then(function (blob) {
+      // Configurar as opções para a geração do PDF
+      var options = {
+        margin: 10,
+        filename: 'formulario.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
 
-                        // Criar um objeto URL para o Blob
-                        var pdfURL = URL.createObjectURL(blob);
-                
-                        // Abrir uma janela do WhatsApp com o link para o arquivo PDF
-                        var whatsappURL = "https://wa.me/+5581981795111?text=Confira%20o%20formulario%20em%20PDF:%20" + encodeURIComponent(pdfURL);
-                        window.open(whatsappURL, '_blank');
-                      });
-                    }
-                </script>
+      // Gerar o PDF e obter o arquivo como Blob
+      html2pdf(pdfContainer, options).then(function (blob) {
+        // Criar um objeto URL para o Blob
+        var pdfURL = URL.createObjectURL(blob);
+
+        // Abrir uma janela do WhatsApp com o link para o arquivo PDF
+        var whatsappURL = "https://wa.me/SEUNUMERODOTELEFONE?text=Confira%20o%20formulario%20em%20PDF:%20" + encodeURIComponent(pdfURL);
+        window.open(whatsappURL, '_blank');
+      });
+    }
+  </script>
+
 
 
 
