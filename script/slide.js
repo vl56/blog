@@ -32,7 +32,9 @@ function showSlide(index) {
           slides[i].style.display = "none";
         }
         slides[slideIndex - 1].style.display = "block";
-        
+
+    }
+
     // Controle de navegação do slide
 
 document.addEventListener('DOMContentLoaded', function () {
