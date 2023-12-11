@@ -150,32 +150,34 @@ padding: 10px;
 /*---------------------------------------------------*/
 
 /*FORMULARIO NA PAGINA DE CONTATO*/
+
 button {
 
     display: flex;
-    align-items: center;
-    border-radius: 12%;
-    padding: 2px;
-    color: #03FA6E;
+}
+
+input {
+
+    
 
 }
 
-form#myForm {
-
+#myForm {
+    
+    display: flex;
     justify-content: center;
-    align-items: center;
+    
     /*border:  1px solid #03FA6E;*/
 
-
 }
+
 /*----------------------------------------------------*/
 
 
-footer img{ /* imagens do roda pé dos icones dos link*/
+footer img { /* imagens do roda pé dos icones dos link*/
 
     width: 35px;
     height: 25px
-
 }
 
 
