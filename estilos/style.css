@@ -157,11 +157,29 @@ padding: 10px;
 button {
 
     display: flex;
+    align-items: center;
+    border-radius: 15%;
+    border: 1px solid #03FA6E;
+    text-decoration: none;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+label {
+
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: auto;
+
 }
 
 input {
 
     
+    border-radius: 5px;
+    border: 1px solid #03FA6E;
 
 }
 
