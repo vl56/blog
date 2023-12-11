@@ -162,9 +162,9 @@ button {
 
 form#myForm {
 
-    display: flex;
+    justify-content: center;
     align-items: center;
-    border:  1px solid #03FA6E;
+    /*border:  1px solid #03FA6E;*/
 
 
 }
