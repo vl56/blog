@@ -155,6 +155,7 @@ button {
 
     display: flex;
     border-radius: 12%;
+    padding: 2px;
     color: #03FA6E;
 
 }
@@ -162,6 +163,7 @@ button {
 form {
 
     display: flex;
+    text-align: center;
 
 }
 /*----------------------------------------------------*/
