@@ -154,11 +154,11 @@ padding: 10px;
 
 /*FORMULARIO NA PAGINA DE CONTATO*/
 
-h1 {
+h1, h2 {
 
     text-align: center;
-    margin: 15px;
-    padding: 50px;
+    margin: 10px;
+    padding: 20px;
 
 }
 
