@@ -2,11 +2,10 @@
 
 
 body, html {
+
     background-color: #333;
     font-family: serif,sans-serif;
-    /*padding: 0px;
-    box-sizing: border-box;
-    border-radius: 2px;*/
+
 
 }
 
@@ -164,8 +163,6 @@ button {
 form#myForm {
 
     display: flex;
-    text-decoration: none;
-    justify-content: center;
     align-items: center;
     border:  1px solid #03FA6E;
 
