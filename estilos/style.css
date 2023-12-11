@@ -154,13 +154,19 @@ padding: 10px;
 
 /*FORMULARIO NA PAGINA DE CONTATO*/
 
+h1 {
+
+    text-align: center;
+    margin: 15px;
+    padding: 50px;
+
+}
+
 button {
 
-    display: flex;
-    align-items: center;
+
     border-radius: 15%;
     border: 1px solid #03FA6E;
-    text-decoration: none;
     margin: 5px;
     padding: 2px;
 
@@ -168,12 +174,12 @@ button {
 
 label {
 
-    display: flex;
-    align-items: center;
+
     margin: 10px;
     padding: auto;
 
 }
+
 
 input {
 
@@ -183,13 +189,13 @@ input {
 
 }
 
-#myForm {
-    
+form {
+
+
     display: flex;
     justify-content: center;
-    
-    /*border:  1px solid #03FA6E;*/
-
+    margin: 50px;
+    padding: 50px;
 }
 
 /*----------------------------------------------------*/
