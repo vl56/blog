@@ -18,22 +18,12 @@ function showSlide(index) {
     document.querySelector('.slider').style.transform = 'translateX(' + translateValue + ')';
     }
 
+function changeSlide(n) {
 
-    function changeSlide(n) {
-        slideIndex += n;
-        let slides = document.getElementsByClassName("slide");
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        if (slideIndex < 1) {
-          slideIndex = slides.length;
-        }
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slides[slideIndex - 1].style.display = "block";
 
-    }
+
+
+}
 
     // Controle de navegação do slide
 
