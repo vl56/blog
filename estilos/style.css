@@ -22,7 +22,7 @@ main {
 .container nav:hover { /*BARRA DO MENU*/
 
 border-radius: 10px;
-background-image: url(/img/#);
+/*background-image: url(/img/#);*/
 animation: float 1s;
 
 
