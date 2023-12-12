@@ -14,8 +14,8 @@ body, html {
 main {
 
     background-image: url(/img/);
-    margin: 2px;
-    padding: 10px;
+    /*margin: 2px;
+    padding: 10px;*/
     border-radius: 5px;
 
 }
