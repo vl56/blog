@@ -98,35 +98,32 @@ nav {
   
   /*Rodape de Pagina e dos Link para a rede social*/
 
+  
+:root {
+    --icon-size: 24px;
+}
+  
+i {
+    color:white;
+    font-size:var(--icon-size);
+}
+  
 footer {
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-
+    max-width:1200px;
+    margin-top:10vh;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: space-between;
 }
-
-footer img { /* imagens do roda pé dos icones dos link*/
-
-    width: 35px;
-    height: 30px
+  
+.footer-item {
+    width:100px;
+    color:black;
+    text-align:center;
 }
-
-footer a { /* DEFINE ESPAÇO ENTRE OS LINK DO RODAPE */
-    
- 
-    text-align: center;
-    margin: 5px;
-}
-
-footer p {
-    
-    text-align: center;
-    /*color: #03FA6E;*/
-
-}
-
+  
+  
 
   /* Estilos para as outras seções (serviços, sobre, contato, etc.) */
   /* Personalize conforme necessário */
-  

@@ -6,8 +6,8 @@ body, html {
     background: #3333;
     font-family: serif,sans-serif;
     border-radius: 5px;
-    margin: auto;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     /*box-sizing: border-box;*/
 
 }
