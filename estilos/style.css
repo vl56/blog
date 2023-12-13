@@ -152,6 +152,49 @@ padding: 10px;
 
 /*---------------------------------------------------*/
 
+/* PAGINA DE PARCEIROS*/
+
+.slideshow {
+    
+    position: relative;
+    max-width: 750px;
+    min-height: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .active {
+    display: block;
+  }
+  .slide {
+    display: none;
+  }
+
+  .slide img {
+    width: 60%;
+    height: auto;
+  }
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 30%;
+  }
 /*FORMULARIO NA PAGINA DE CONTATO*/
 
 h1, h2 {
