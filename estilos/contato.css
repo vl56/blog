@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/*FORMULARIO NA PAGINA DE CONTATO*/
+
+h1, h2 {
+
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+button {
+
+
+    border-radius: 15%;
+    border: 1px solid #03FA6E;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+label {
+
+
+    margin: 10px;
+    padding: auto;
+
+}
+
+
+input {
+
+    
+    border-radius: 5px;
+    border: 1px solid #03FA6E;
+
+}
+
+form {
+
+
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+
+.controle-inicio {
+
+display: flex;
+
+
+}
+
+.botao-inicio {
+
+    background-color: #3533cd;
+    font-size: 12px;
+    border-radius: 35px;
+    border: 1px solid #03FA6E;
+    margin: 5px;
+    padding: 10px;
+}
+
+#a h2 {
+
+    color: #03FA6E;
+}

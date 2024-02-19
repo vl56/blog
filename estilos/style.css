@@ -1,50 +1,14 @@
 @charset "UTF-8";
 
+*{
 
-body, html {
-    
-    background-color: #4682B4;
-    font-family: serif,sans-serif;
-    border-radius: 5px;
     margin: 0;
-    padding: 15px;
+    padding: 0;
     box-sizing: border-box;
 
 }
 
-/*Formulario Parceiros e Contato*/
 
-.controle-inicio h2 {
-
-    display: flex;
-    font-style: italic;
-    animation: float 1s ease-in-out alternate;
-    /*border-radius: 25%;
-    border: 5px solid #4682b5;*/
-    margin: 0 auto;
-    padding: 5px;
-
-
-
-}
-
-/*----------------------------------*/
-main {
-
-    /*background-image: url(/img/);*/
-    /*margin: 2px;
-    padding: 10px;*/
-    border-radius: 5px;
-
-}
-.container nav:hover { /*BARRA DO MENU*/
-
-border-radius: 10px;
-/*background-image: url(/img/#);*/
-animation: float 1s;
-
-
-}
 
 .center img {/*logo tipo ou imagem pessoal*/
 
@@ -55,15 +19,17 @@ animation: float 1s;
 }
 
 
-.center{
+.center {
 
-    text-align: center;
+    display: flex;
+    text-wrap: nowrap;
 }
 
 
 .center { /*IMG DO FUNDO DA LOGO EM FLUTUAÇÃO*/
 
     /*background-image: url(/img/logo_plano.jpeg );*/
+
     width: 100%;
     justify-content: center;
     height: auto;
@@ -73,27 +39,6 @@ animation: float 1s;
     animation: float 1s;
     
 }
-
-
-ul {
-
-
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content:space-between;
-    list-style-type:none;
-    align-items:center;
-    padding: 20px;
-    color:white;
-}
-
-a{
-
-    color:white;
-    text-decoration: none;
-
-}
-
 
 
 .robo {
@@ -182,19 +127,12 @@ padding: 10px;
   }
 
 
-/*.active {
-    display: block;
-}*/
-
-/*.slide {
-    display: none;
-  }*/
-
 .slide img {
     width: 60%;
     height: auto;
   }
 
+/*
 .prev,
 .next {
     position: absolute;
@@ -209,104 +147,13 @@ padding: 10px;
   }
 
 .prev {
+
     left: 0;
 }
   
 .next {
     right: 30%;
 }
-
-/*FORMULARIO NA PAGINA DE CONTATO*/
-
-h1, h2 {
-
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-}
-
-button {
-
-
-    border-radius: 15%;
-    border: 1px solid #03FA6E;
-    margin: 5px;
-    padding: 2px;
-
-}
-
-label {
-
-
-    margin: 10px;
-    padding: auto;
-
-}
-
-
-input {
-
-    
-    border-radius: 5px;
-    border: 1px solid #03FA6E;
-
-}
-
-form {
-
-
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    padding: 50px;
-}
-
-/*----------------------------------------------------*/
-
-
-footer img { /* imagens do roda pé dos icones dos link*/
-
-    width: 35px;
-    height: 25px
-}
-
-
-footer {
-    
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-
-}
-
-
-footer a { /* DEFINE ESPAÇO ENTRE OS LINK DO RODAPE */
-    
-    margin: 5px;
-    text-align: center;
-}
-
-footer p {
-    
-    text-align: center;
-    color: #03FA6E;
-
-}
-
-nav a:hover{
-
-    color: blue;
-}
-
-.container a{ /*menu sobre mim */
-
-    text-align: center;
-}
-
-h2, h3, p , li {
-
-color: white;
-
-}
+*/
 
 
