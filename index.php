@@ -105,41 +105,31 @@
 
             </main>
     
-            <footer class="rodape">  <!-- Parte do roda pé do site -->
-   
-                <!-- Link para o GitHub-->
-                 <a href="http://github.com/vl56" target="_blank" rel="noopener noreferrer">
-
-                    <img src="img/rodape/github.png" alt="">
-                            <p>Github</p>
-                </a>
-    
-
-                        <!--Link para o Linkedin-->
-                <a href="http://linkedin.com/in/wideacess" target="_blank" rel="noopener noreferrer">
-
-                    <img src="img/rodape/linkedin-removebg-preview.png" alt="">
-                            <p>Linkedin</p>
-                </a>
-
-
-                         <!--Link para o Instagram-->
-                <a href="http://instagram.com/vl56" target="_blank" rel="noopener noreferrer">
-
-                    <img src="img/rodape/instagram-removebg-preview.png" alt="">
-                            <p>Instagram</p>
-                </a>
-
-                <!--Link para o Instagram-->
-                <a href="http://#" target="_blank" rel="noopener noreferrer">
-
-                    <img src="img/rodape/facebook-removebg-preview.png" alt="">
-                            <p>Facebook</p>
-                </a>
-    
-               
-            </footer>
         </div>
+
+        <footer>
+            <div class="footer-item">
+            <a href="https://www.instagram.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-instagram"></i>Instagram</a>
+            </div>
+          
+            <div class="footer-item">
+            <a href="https://www.facebook.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-facebook"></i>Facebook</a>
+            
+          
+            </div>
+          
+            <div class="footer-item">
+              <a href="https://www.linkedin.com/in/seu_usuario" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-linkedin"></i>Linkdin</a>
+            </div>
+          
+            <div class="footer-item">
+            <a href="https://github.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-github"></i>Github</a>
+            </div>
+          </footer>
 
         <script type="text/javascript" src="script/slide.js"></script>
         <script type="img/javascript" src="script/slide.js"></script>
