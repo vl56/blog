@@ -109,25 +109,23 @@
 
         <footer>
             <div class="footer-item">
-            <a href="https://www.instagram.com/seu_usuario" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-instagram"></i>Instagram</a>
+                <a href="https://www.instagram.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-instagram"></i>Instagram</a>
             </div>
           
             <div class="footer-item">
-            <a href="https://www.facebook.com/seu_usuario" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-facebook"></i>Facebook</a>
-            
-          
+                <a href="https://www.facebook.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-facebook"></i>Facebook</a>
             </div>
           
             <div class="footer-item">
-              <a href="https://www.linkedin.com/in/seu_usuario" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-linkedin"></i>Linkdin</a>
+                  <a href="https://www.linkedin.com/in/seu_usuario" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-linkedin"></i>Linkdin</a>
             </div>
           
             <div class="footer-item">
-            <a href="https://github.com/seu_usuario" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-github"></i>Github</a>
+                <a href="https://github.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-github"></i>Github</a>
             </div>
           </footer>
 
