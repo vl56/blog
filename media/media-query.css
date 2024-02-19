@@ -22,14 +22,14 @@ Paletas de Cores
 @media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
 
     body {
-        background-image: linear-gradient(to top, #363636,#4682B4);
+        background-image: linear-gradient(to top,#4682B4,#363636);
     }
 }
 
 @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
 
     body {
-        background-image: linear-gradient(to top, #363636,#4682B4);
+        background-image: linear-gradient(to top, #4682B4,#363636);
     }
 
     
