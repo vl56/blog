@@ -75,9 +75,9 @@
                                           <div class="slide"><img src="img/switch/cisco/WS-C2960-48TC-S-02.png" alt="Imagem 1"><dd>C2960</dd></div>
                                           <div class="slide"><img src="img/switch/datacom/dm-1200-datacom-removebg.png" alt="Imagem 2"><dd>DM-1200</dd></div>
                                           <div class="slide"><img src="img/router/huawei/ne_8000_m8_dc_01_1__1_-removebg-preview.png" alt="Imagem 3"><dd>NE8000</dd></div>
-                                          <div class="slide"><img src="img/router/mikrotik/ccr2116-removebg-preview.png" alt="Imagem 4">CCR 2116</div>
-                                          <div class="slide"><img src="img/router/mikrotik/rb3011-removebg-preview.png" alt="Imagem 5">RB 3011</div>
-                                          <div class="slide"><img src="img/olt/huawei/ma5800-x2-removebg-preview.png" alt="Imagem 6">MA5800</div>
+                                          <div class="slide"><img src="img/router/mikrotik/ccr2116-removebg-preview.png" alt="Imagem 4"><dd>CCR 2116</dd></div>
+                                          <div class="slide"><img src="img/router/mikrotik/rb3011-removebg-preview.png" alt="Imagem 5"><dd>RB 3011</dd></div>
+                                          <div class="slide"><img src="img/olt/huawei/ma5800-x2-removebg-preview.png" alt="Imagem 6"><dd>MA5800</dd></div>
                                           <!-- Adicione mais slides conforme necessário -->
                                         </div>
                                     </div>
