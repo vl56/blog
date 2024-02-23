@@ -17,3 +17,13 @@
     box-sizing: border-box;
 
 }
+
+body {
+
+
+    background: #3333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
