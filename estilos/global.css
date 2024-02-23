@@ -15,8 +15,13 @@
     --icon-size: 24px;
     --icon-color:hsl(39, 100%, 50%);
     --texto-menu:hsl(39, 100%, 50%);
+    --contato-color:hsl(39, 100%, 50%);
+    --parceiros-color:hsl(39, 100%, 50%);
+    --footer-color:hsl(39, 100%, 50%);
+
 
   }
+
 
 *{
 
@@ -26,10 +31,10 @@
 
 }
 
+
 body {
 
     background-image: url(/img/logo_plano.jpeg);
-    /*background: #3333;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
