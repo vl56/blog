@@ -9,6 +9,11 @@
 }
 
 
+.center {
+
+    background: rgb(51, 0, 188);
+
+}
 
 .center img {/*logo tipo ou imagem pessoal*/
 
@@ -84,11 +89,17 @@ padding: 10px;
 
 /*------------------------------------------------------*/
 
+.slider-servicos {
+
+    background: var(--slider-color);
+    padding: 120px;
+}
 
 .slider-container {
 
+    background: hsl(0, 0%, 71%);
     width: 85%;
-    margin: auto;
+    margin: 0 auto;
     overflow: hidden;
 
 }

@@ -17,7 +17,15 @@
     --texto-menu:hsl(39, 100%, 50%);
     --contato-color:hsl(39, 100%, 50%);
     --parceiros-color:hsl(39, 100%, 50%);
-    --footer-color:hsl(39, 100%, 50%);
+    --footer-color:hsla(9, 100%, 64%, 0.8);
+    --div-contato-color:hsl(0, 100%, 100%);
+    --slider-color:hsl(0, 100%, 100%);
+    --div-parceiro-color:;
+    --html-color:hsl(0, 100%, 0%);
+    --body-color:rgb(51, 55, 188);
+    --texto-p-:rgb(51, 0, 188);
+
+
 
 
   }
@@ -31,10 +39,14 @@
 
 }
 
+html{
+
+    background: var(--html-color);
+}
 
 body {
 
-    background-image: url(/img/logo_plano.jpeg);
+    background: var(--body-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

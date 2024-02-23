@@ -9,19 +9,17 @@
 }
 
   
-  body {
 
-    background-color: #D6D6D6;
-    font-family:Arial;
-
-  }
   
   footer {
 
-    max-width:1200px;
+    background: var(--footer-color);
+    padding: 120px;
+    margin: 0 auto;
+    /*max-width:1200px;
     margin-top:10vh;
     margin-left:auto;
-    margin-right:auto;
+    margin-right:auto;*/
     display:flex;
     justify-content: space-between;
 
