@@ -84,7 +84,7 @@ padding: 10px;
 
 /*------------------------------------------------------*/
 
-
+/*
 .slider-container {
 
     width: 85%;
@@ -98,7 +98,7 @@ padding: 10px;
     display: flex;
     text-align: center;
     transition: transform 1s ease-in-out;
-    /*border: 1px solid #708090;*/
+    /*border: 1px solid #708090;//
 
 }
 
@@ -108,7 +108,7 @@ padding: 10px;
         margin: auto;
         min-width: 40%;
 
-}
+}*/
 
 
 

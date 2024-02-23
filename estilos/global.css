@@ -103,6 +103,39 @@ body {
 
 }
 
+@scope (#slide-img) {
+
+
+
+
+    li {
+
+        width: 85%;
+        margin: auto;
+        overflow: hidden;
+    
+    }
+    
+    .slider {
+        
+        display: flex;
+        text-align: center;
+        transition: transform 1s ease-in-out;
+        /*border: 1px solid #708090;*/
+    
+    }
+
+
+    img {
+
+        padding: 10px;
+        margin: auto;
+        min-width: 40%;
+    }
+
+
+}
+
 
 /*
 @scope (.rodape) {
