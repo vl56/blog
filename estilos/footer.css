@@ -8,32 +8,34 @@
 
 }
 
-
-:root {
-    --icon-size: 24px;
-    --icon-color: #333;
-  }
   
   body {
+
     background-color: #D6D6D6;
     font-family:Arial;
+
   }
   
   footer {
+
     max-width:1200px;
     margin-top:10vh;
     margin-left:auto;
     margin-right:auto;
     display:flex;
     justify-content: space-between;
+
   }
   
   .footer-item {
+
     width:100px;
     text-align:center;
+
   }
   
   .footer-item a {
+
     color:var(--icon-color);
     font-weight: 600;
     display:flex;
@@ -43,14 +45,18 @@
   }
   
   .footer-item i {
+
     color:var(--icon-color);
     font-size:var(--icon-size);
+
   }
   
   .footer-item:hover,
   .footer-item:hover a,
   .footer-item:hover i {
-      color: #3C8150;
+
+      color: hsl(240, 100%, 50%);
+
   }
   
   

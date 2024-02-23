@@ -10,6 +10,14 @@
 @import "footer.css";
 
 
+:root {
+
+    --icon-size: 24px;
+    --icon-color:hsl(39, 100%, 50%);
+    --texto-menu:hsl(39, 100%, 50%);
+
+  }
+
 *{
 
     margin: 0;
