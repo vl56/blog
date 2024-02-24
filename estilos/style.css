@@ -92,7 +92,7 @@ padding: 10px;
 .slider-servicos {
 
     background: var(--slider-color);
-    padding: 120px;
+   
 }
 
 .slider-container {
@@ -100,6 +100,7 @@ padding: 10px;
     background: hsl(0, 0%, 71%);
     width: 85%;
     margin: 0 auto;
+    padding: 120px;
     overflow: hidden;
 
 }
@@ -107,6 +108,7 @@ padding: 10px;
 .slider {
     
     display: flex;
+    padding: 120px;
     text-align: center;
     transition: transform 1s ease-in-out;
 

@@ -55,7 +55,7 @@
   .footer-item:hover a,
   .footer-item:hover i {
 
-      color: hsl(240, 100%, 50%);
+      color: var(--hover-color);
 
   }
   

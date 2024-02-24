@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+/*------------------------------------*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+/*-----------------------------*/
 @import "menu-inicial.css";
 @import "texto-pagina.css";
 @import "style.css";
@@ -9,7 +11,7 @@
 @import "contato.css";
 @import "footer.css";
 
-
+/*-- grade de paletas de cores em HSL e RGB --*/
 :root {
 
     --icon-size: 24px;
@@ -24,13 +26,14 @@
     --html-color:hsl(0, 100%, 0%);
     --body-color:rgb(51, 55, 188);
     --texto-p-:rgb(51, 0, 188);
+    --hover-color: hsl(240, 100%, 50%);
 
 
 
 
   }
 
-
+/*-- Limpando codigos --*/
 *{
 
     margin: 0;
@@ -38,6 +41,8 @@
     box-sizing: border-box;
 
 }
+
+/*-- background --*/
 
 html{
 
