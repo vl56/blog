@@ -99,8 +99,8 @@ padding: 10px;
 
     background-color: hsl(0, 0%, 71%);
     width: 85%;
+    padding: 10px;
     margin: 0 auto;
-    padding: 120px;
     overflow: hidden;
 
 }
@@ -108,10 +108,8 @@ padding: 10px;
 .slider {
     
     display: flex;
-    padding: 120px;
     text-align: center;
     transition: transform 1s ease-in-out;
-
 
 }
 
@@ -119,8 +117,8 @@ padding: 10px;
 .slide img {
         
         padding: 10px;
-        margin: auto;
-        min-width: 40%;
+        margin: 0 auto;
+        min-width: 60%;
 
 }
 
@@ -143,7 +141,7 @@ padding: 10px;
 
 .slide img {
     width: 60%;
-    height: auto;
+    height: 0 auto;
   }
 
 .texto {
