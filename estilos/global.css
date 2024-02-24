@@ -44,17 +44,8 @@
 
 /*-- background --*/
 
+
 html{
 
     background: var(--html-color);
-}
-
-
-body {
-
-    background: var(--body-color);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
 }
