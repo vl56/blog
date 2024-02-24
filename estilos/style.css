@@ -97,7 +97,7 @@ padding: 10px;
 
 .slider-container {
 
-    background: hsl(0, 0%, 71%);
+    background-color: hsl(0, 0%, 71%);
     width: 85%;
     margin: 0 auto;
     padding: 120px;
