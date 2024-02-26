@@ -16,11 +16,10 @@
 
     
     background-color: var(--projetos-color-back);
+    display: flex;
+    flex-direction: column;
     padding: 50px;
-    word-wrap: break-word;
-    margin-top: 100px;
-    text-align: start;
-    font-size: 2rem;
+    font-size: 30px;
 
 }
 
@@ -30,4 +29,21 @@
 
     color: white;
     
+}
+
+/*--- Configuração de IMG dos parceiros ---*/
+
+.parceiros-isp {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#parceiros img {
+
+    padding: 10px;
+    margin: 0;
+    width: 120px;
 }

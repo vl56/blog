@@ -28,3 +28,19 @@
 
     color: white;
 }
+
+.projetos-isp {
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#projetos img {
+
+    padding: 10px;
+    margin: 0;
+    width: 120px;
+
+}
