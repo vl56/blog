@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="/estilos/global.css">
+        <link rel="stylesheet" href="estilos/global.css">
+        <link rel="stylesheet" href="media/media-query.css">
         <title>VL56 Consultorias</title>
 
     </head>
@@ -13,13 +14,14 @@
              <!--adicione aqui um comentario-->
         <div class="container">
 
-                    <nav class="menu" id="menu-inicial">
+                    <nav class="menu">
                         
                              
-                            <ul>
+                            <ul  id="menu-inicial">
                                 <li><a href="index.html">Sobre mim</a></li>
-                                <li><a href="projetos.html">Parceiros e Projetos</a></li>
-                                <li><a href="contato.html">Contato</a></li>
+                                <li><a href="#parceiros">Parceiros</a></li>
+                                <li><a href="#projetos">Projetos</a></li>
+                                <li><a href="#contato">Contato</a></li>
             
                             </ul>
                         
@@ -51,6 +53,37 @@
                         
                 </section>
 
+
+                <section id="parceiros">
+
+                  <h3> Parceiros </h3><!--Biografia da empresa ou pessoa-->
+
+                  <div class="parceiros-isp">
+
+                    <div class="isp">
+                      <img src="img/rodape/facebook-removebg-preview.png" alt="provedor01">
+                    </div>
+
+                    
+                    <div class="isp">
+                      <img src="img/rodape/github.png" alt="provedor02">
+                    </div>
+
+                    
+                    <div class="isp">
+                      <img src="img/rodape/instagram-removebg-preview.png" alt="provedor03">
+                    </div>
+
+                    
+                    <div class="isp">
+                      <img src="img/rodape/linkedin-removebg-preview.png" alt="provedor04">
+                    </div>
+
+                  </div>
+                      
+                </section>
+
+
                 <section class="slider-servicos" id="slide-img">
                     <!--adicione aqui um comentario-->
                         <h3>Experiências com:</h3>
@@ -74,32 +107,92 @@
                              </div>
 
                 </section>
+
+
+                <section id="projetos">
+
+                  <h3> Projetos </h3><!--Biografia da empresa ou pessoa-->
+
+                 
+                  <div class="projetos-isp">
+
+                    <div class="pro-isp">
+
+                      Projetos01
+
+                    </div>
+
+                    
+                    <div class="pro-isp">
+
+                      Projetos01
+
+                    </div>
+
+                    
+                    <div class="pro-isp">
+
+                      Projetos01
+
+                    </div>
+
+                    
+                    <div class="pro-isp">
+
+                      Projetos01
+
+                    </div>
+
+                  </div>
+                      
+                </section>
+
+
+
+                <section id="contato">
+
+                  <h3> Contato </h3><!--Biografia da empresa ou pessoa-->
+              
+                    <div class="celular">
+                      <a href="http://#" target="_blank" rel="noopener noreferrer"><p>Telefone:(81) 98179-5111</p></a>
+                    </div>
+
+                    <div class="email">
+                      <a href="http://www.gmail.com/" target="_blank" rel="noopener noreferrer"><p>Email:vl56fmelo@gmail.com</p></a>
+                    </div>
+
+                    <div class="">
+                      <a href="http://#" target="_blank" rel="noopener noreferrer"><p></p></a>
+                    </div>
+                      
+                </section>
+
         
             </main>
     
             
         </div>
 
-        <footer>
+        <footer class="rodape">
             <div class="footer-item">
-            <a href="https://www.instagram.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/vl56consultorias" target="_blank" rel="noopener noreferrer">
               <i class="fa fa-instagram"></i>Instagram</a>
             </div>
           
             <div class="footer-item">
-            <a href="https://www.facebook.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/vl56consultorias" target="_blank" rel="noopener noreferrer">
               <i class="fa fa-facebook"></i>Facebook</a>
             
           
             </div>
           
             <div class="footer-item">
-              <a href="https://www.linkedin.com/in/seu_usuario" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/vl56consultorias" target="_blank" rel="noopener noreferrer">
               <i class="fa fa-linkedin"></i>Linkdin</a>
             </div>
           
             <div class="footer-item">
-            <a href="https://github.com/seu_usuario" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/vl56" target="_blank" rel="noopener noreferrer">
               <i class="fa fa-github"></i>Github</a>
             </div>
           </footer>

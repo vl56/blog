@@ -32,7 +32,7 @@
 }
 
 /*--- Configuração de IMG dos parceiros ---*/
-
+/*
 .parceiros-isp {
 
     display: flex;
@@ -40,10 +40,33 @@
     
 }
 
+*/
 
-#parceiros img {
+.isp img {
 
     padding: 10px;
     margin: 0;
     width: 120px;
+    height: auto;
 }
+
+.parceiros-isp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Cria colunas responsivas */
+    gap: 5px; /* Define o espaço entre as células */
+}
+
+.isp {
+
+    /* Define estilos opcionais para os itens da grade, como bordas, margens, etc. */
+    /*border: 1px solid var(--color-border-img);*/
+    padding: 5px;
+    margin: auto;
+}
+
+/*
+.isp img {
+    width: 100%; /* Garante que a imagem preencha completamente o espaço do contêiner */
+    height: auto; /* Mantém a proporção da imagem //
+}
+*/

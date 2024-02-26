@@ -29,18 +29,25 @@
     color: white;
 }
 
+
 .projetos-isp {
-
-
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Cria colunas responsivas */
+    gap: 5px; /* Define o espaço entre as células */
 }
 
+.pro-isp {
 
-#projetos img {
+    /* Define estilos opcionais para os itens da grade, como bordas, margens, etc. */
+    /*border: 1px solid var(--color-border-img);*/
+    padding: 5px;
+    margin: auto;
+}
+
+.pro-isp img {
 
     padding: 10px;
     margin: 0;
     width: 120px;
-
+    height: auto;
 }
