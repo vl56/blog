@@ -1,24 +1,6 @@
 @charset "UTF-8";
 
 
-/*
-PELETAS DE CORES 
-
-VERDE=
-CINZA=
-
-OU
-
-AZUL=
-PRETO=
-
-Paletas de Cores
-
- Grey31 Cinza - #4F4F4F ou Grey21 - #363636
- RoyalBlue - #4169E1 ou  SteelBlue - #4682B4
-
-*/
-
 @media screen and (min-width: 768px) and (max-width: 992px) { /* CONFIGURAÇÃO PARA TABLET */
 
     body {

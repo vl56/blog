@@ -45,7 +45,13 @@
 }
 
 /*-- background --*/
+/*
+body {
 
+    background-color: var(--body-color);
+
+}
+*/
 
 html{
 
