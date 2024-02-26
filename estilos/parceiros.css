@@ -8,3 +8,24 @@
 
 }
 
+
+
+#parceiros {
+
+    
+    background-color: var(--projetos-color-back);
+    padding: 50px;
+    word-wrap: break-word;
+    margin-top: 100px;
+    text-align: start;
+    font-size: 2rem;
+
+}
+
+#parceiros h3,
+.isp {
+
+
+    color: white;
+    
+}

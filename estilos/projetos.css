@@ -9,7 +9,7 @@
 
 
 
-#contato {
+#projetos {
     
     background-color: var(--projetos-color-back);
     padding: 50px;
@@ -18,4 +18,12 @@
     text-align: start;
     font-size: 2rem;
 
+}
+
+
+#projetos h3,
+.pro-isp {
+
+
+    color: white;
 }

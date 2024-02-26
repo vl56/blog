@@ -8,6 +8,7 @@
 @import "texto-pagina.css";
 @import "style.css";
 @import "parceiros.css";
+@import "projetos.css";
 @import "contato.css";
 @import "footer.css";
 
@@ -27,6 +28,7 @@
     --body-color:rgb(51, 55, 188);
     --texto-p-:rgb(51, 0, 188);
     --hover-color: hsl(240, 100%, 50%);
+    --projetos-color-back:hsl(0, 100%, 0%);
 
 
 
