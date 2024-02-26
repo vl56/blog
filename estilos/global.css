@@ -13,6 +13,7 @@
 @import "footer.css";
 
 /*-- grade de paletas de cores em HSL e RGB --*/
+
 :root {
 
     --icon-size: 24px;
@@ -23,6 +24,7 @@
     --footer-color:hsla(9, 100%, 64%, 0.8);
     --div-contato-color:hsl(0, 100%, 100%);
     --slider-color:hsl(0, 100%, 100%);
+    --back-global:hsl(0, 100%, 100%);
     --div-parceiro-color:;
     --html-color:hsl(0, 100%, 0%);
     --body-color:rgb(51, 55, 188);
@@ -46,13 +48,14 @@
 }
 
 /*-- background --*/
-/*
+
+
 body {
 
-    background-color: var(--body-color);
+    background-color: var(--back-glocal);
 
 }
-*/
+
 
 html{
 
