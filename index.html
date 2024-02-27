@@ -12,7 +12,7 @@
 
     <body>
              <!--adicione aqui um comentario-->
-        <div class="container">
+        <div class="container" >
 
                     <nav class="menu">
                         
@@ -41,7 +41,7 @@
 
     
             <main>
-                <section class="texto">
+                <section class="texto"  style="background-color: var(--div-contato-color);">
 
                     <h3> Sobre mim </h3><!--Biografia da empresa ou pessoa-->
                 
@@ -84,32 +84,7 @@
                 </section>
 
 
-                <section class="slider-servicos" id="slide-img">
-                    <!--adicione aqui um comentario-->
-                        <h3>Experiências com:</h3>
-
-                            <div class="mk">
-
-                                <li>
-                                    
-                                    <div class="slider-container">
-                                        <div class="slider">
-                                          <div class="slide"><img src="img/switch/cisco/WS-C2960-48TC-S-02.png" alt="Imagem 1"></div>
-                                          <div class="slide"><img src="img/switch/datacom/dm-1200-datacom-removebg.png" alt="Imagem 2"></div>
-                                          <div class="slide"><img src="img/router/huawei/ne_8000_m8_dc_01_1__1_-removebg-preview.png" alt="Imagem 3"></div>
-                                          <div class="slide"><img src="img/router/mikrotik/ccr2116-removebg-preview.png" alt="Imagem 4"></div>
-                                          <div class="slide"><img src="img/router/mikrotik/rb3011-removebg-preview.png" alt="Imagem 5"></div>
-                                          <div class="slide"><img src="img/olt/huawei/ma5800-x2-removebg-preview.png" alt="Imagem 6"></div>
-                                          <!-- Adicione mais slides conforme necessário -->
-                                        </div>
-                                    </div>
-                                </li>
-                             </div>
-
-                </section>
-
-
-                <section id="projetos">
+                <section id="projetos"  style="background-color: var(--html-color);">
 
                   <h3> Projetos </h3><!--Biografia da empresa ou pessoa-->
 
@@ -118,28 +93,28 @@
 
                     <div class="pro-isp">
 
-                      Projetos01
+                      <img src="img/cacti/cacti-screen.png" alt="">
 
                     </div>
 
                     
                     <div class="pro-isp">
 
-                      Projetos01
+                      <img src="img/dns/servidor-dns-bind-no-linux.jpg" alt="">
 
                     </div>
 
                     
                     <div class="pro-isp">
 
-                      Projetos01
+                      <img src="img/grafana/daschboad_dvr.png" alt="">
 
                     </div>
 
                     
                     <div class="pro-isp">
 
-                      Projetos01
+                      <img src="img/zabbix/dashboard_dark.png" alt="">
 
                     </div>
 
@@ -151,19 +126,20 @@
 
                 <section id="contato">
 
-                  <h3> Contato </h3><!--Biografia da empresa ou pessoa-->
-              
-                    <div class="celular">
-                      <a href="http://#" target="_blank" rel="noopener noreferrer"><p>Telefone:(81) 98179-5111</p></a>
+                  <div class="contact-container">
+                    <div class="contact-info">
+                      <h2>Entre em Contato</h2>
+                      <p>Celular: <span id="phone"> <a href="http://https://api.whatsapp.com/send?phone=5581981795111&text=ola%20gostaria%20de%20conhece%20mais%20sobre%20seus%20servicos%20" target="_blank" rel="noopener noreferrer">(81) 98179-5111</a></span></p>
+                      <p>Email: <span id="email">vl56fmelo@gmail.com</span></p>
                     </div>
-
-                    <div class="email">
-                      <a href="http://www.gmail.com/" target="_blank" rel="noopener noreferrer"><p>Email:vl56fmelo@gmail.com</p></a>
-                    </div>
-
-                    <div class="">
-                      <a href="http://#" target="_blank" rel="noopener noreferrer"><p></p></a>
-                    </div>
+                    
+                    <form id="telegram-form">
+                      <h2>Dúvida? envie uma messagem</h2>
+                      <label for="message">Mensagem:</label>
+                      <textarea id="message" name="message" rows="4" required></textarea>
+                      <button type="button" onclick="sendMessage()">Enviar</button>
+                    </form>
+                  </div>
                       
                 </section>
 
@@ -199,6 +175,7 @@
 
         <script type="text/javascript" src="script/slide.js"></script>
         <script type="img/javascript" src="script/slide.js"></script>
+        <script src="script/form.js"></script>
 
     </body>
 </html>

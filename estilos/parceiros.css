@@ -16,10 +16,12 @@
 
     
     background-color: var(--projetos-color-back);
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    font-size: 30px;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 0 0 10px var(--linha-de-pagina);
+    word-wrap: break-word;
+    text-align: start;
+    font-size: 2rem;
 
 }
 
@@ -32,16 +34,6 @@
 }
 
 /*--- Configuração de IMG dos parceiros ---*/
-/*
-.parceiros-isp {
-
-    display: flex;
-    justify-content: center;
-    
-}
-
-*/
-
 
 
 .parceiros-isp {

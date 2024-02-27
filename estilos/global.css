@@ -23,7 +23,7 @@
     --parceiros-color:hsl(39, 100%, 50%);
     --footer-color:hsla(9, 100%, 64%, 0.8);
     --div-contato-color:hsl(0, 100%, 100%);
-    --slider-color:hsl(0, 100%, 100%);
+    --linha-de-pagina:hsl(0, 100%, 100%);
     --back-global:hsl(0, 100%, 100%);
     --div-parceiro-color:;
     --html-color:hsl(0, 100%, 0%);
@@ -33,10 +33,7 @@
     --projetos-color-back:hsl(0, 100%, 0%);
     --color-border-img:hsl(0, 100%, 100%);
 
-
-
-
-  }
+}
 
 /*-- Limpando codigos --*/
 *{
@@ -54,10 +51,4 @@ body {
 
     background-color: var(--back-glocal);
 
-}
-
-
-html{
-
-    background: var(--html-color);
 }

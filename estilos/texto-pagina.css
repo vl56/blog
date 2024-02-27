@@ -7,17 +7,13 @@
     box-sizing: border-box;
 }
 
+.texto {
 
 
-#slide-img {
-
-    padding: 120px;
-    margin: 0 auto;
-
+    padding: 50px;
+    margin: auto;
+    word-wrap: break-word;
+    text-align: start;
+    font-size: 2rem;
 }
 
-.slide img {
-
-    width: 60%;
-    height: auto;
-}

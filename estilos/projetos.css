@@ -12,10 +12,13 @@
 
 #projetos {
     
-    background-color: var(--projetos-color-back);
-    padding: 50px;
+    padding: 40px;
+    margin: auto;
+    max-width: 1200px;
+    height: auto;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px var(--parceiros-color);
     word-wrap: break-word;
-    margin-top: 100px;
     text-align: start;
     font-size: 2rem;
 

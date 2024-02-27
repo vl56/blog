@@ -1,21 +1,75 @@
 @charset "UTF-8";
 
 
+
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--div-contato-color);
+  }
+  
+  .contact-container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: var(--icon-color);
+    padding: 10px;
+    box-shadow: 0 0 10px var(--html-color);
+  }
+  
+  .contact-info h2, #telegram-form h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  #phone, #email {
+    color: #007bff;
+  }
 
+    #phone a {
 
-#contato {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial;
+    }
+  
     
-    background-color: var(--projetos-color-back);
-    padding: 50px;
-    word-wrap: break-word;
-    margin-top: 100px;
-    text-align: start;
-    font-size: 2rem;
-
-}
+  #telegram-form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
