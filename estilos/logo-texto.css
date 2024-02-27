@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.minhaImagem img {/*logo tipo ou imagem pessoal*/
+
+    width: 480px;
+    height: 320px;
+    animation: float 2s ease-in-out infinite;
+
+}
+
+.imagem {
+
+    transition: filter 0.3s ease-in-out; /* Adicionando transição suave */
+  }
+
+
+.imagem {
+
+    display: flex;
+    text-wrap: nowrap;
+}
+
+
+.imagem { /*IMG DO FUNDO DA LOGO EM FLUTUAÇÃO*/
+
+    /*background-image: url(/img/logo_plano.jpeg );*/
+
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    padding: 1px;
+    border-radius: 5px;
+    animation: float 1s;
+    
+}
+
+
+.texto {
+
+
+    padding: 50px;
+    margin: auto;
+    word-wrap: break-word;
+    text-align: start;
+    font-size: 2rem;
+}
+
+

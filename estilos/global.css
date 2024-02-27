@@ -5,8 +5,7 @@
 
 /*-----------------------------*/
 @import "menu-inicial.css";
-@import "texto-pagina.css";
-@import "style.css";
+@import "logo-texto.css";
 @import "parceiros.css";
 @import "projetos.css";
 @import "contato.css";
@@ -49,6 +48,6 @@
 
 body {
 
-    background-color: var(--back-glocal);
+    background-color: var(--body-color);
 
 }
