@@ -1,75 +1,70 @@
 @charset "UTF-8";
 
+* {
 
-
-*{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--div-contato-color);
-  }
-  
-  .contact-container {
-    max-width: 1200px;
-    margin: auto;
-    background-color: var(--icon-color);
-    padding: 10px;
-    box-shadow: 0 0 10px var(--html-color);
-  }
-  
-  .contact-info h2, #telegram-form h2 {
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info p {
-    margin: 10px 0;
-  }
-  
-  #phone, #email {
-    color: #007bff;
+
+#contato {
+  background-color: var(--texto-menu);
+  padding: 20px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-zap {
+  padding: 10px;
+  justify-content: end;
+}
+
+.email {
+
+  padding: 10px;
+  justify-content: end;
+}
+
+.ticket {
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:right;
+  text-align: start;
+}
+
+  #contato p {
+
+    font-size: var(--icon-size);
+    font-family: 'Arial';
+    display: felx;
+    text-align: start;
+    text-decoration: none;
   }
 
-    #phone a {
 
-        text-decoration: none;
-        font-size: 15px;
-        font-family: Arial;
-    }
-  
-    
-  #telegram-form {
-    margin-top: 20px;
+.info-zap a,
+span {
+
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: var(--icon-size);
+}
+
+.ticket a {
+
+  text-decoration: none;
+  color: var(--html-color);
+}
+
+
+  .minhaImagem-01 img {
+
+    width: 125px;
+    border-radius: 50px;
+    border: 1px solid var(--texto-menu);
+    box-shadow: 0 0 0 4px;
   }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  textarea {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  

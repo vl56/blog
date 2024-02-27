@@ -12,24 +12,19 @@
 
 #projetos {
     
-    padding: 40px;
-    margin: auto;
-    max-width: 1200px;
-    height: auto;
-    border: 1px solid #333;
-    box-shadow: 0 0 10px var(--parceiros-color);
+    height: 700px;
     word-wrap: break-word;
-    text-align: start;
+    text-align: center;
     font-size: 2rem;
 
 }
 
 
-#projetos h3,
-.pro-isp {
+#projetos a {
 
 
     color: white;
+    text-decoration: none;
 }
 
 

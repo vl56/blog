@@ -16,20 +16,18 @@
 
     
     background-color: var(--projetos-color-back);
-    padding: 40px;
-    margin: auto;
-    box-shadow: 0 0 10px var(--linha-de-pagina);
+    height: 700px;
     word-wrap: break-word;
-    text-align: start;
+    text-align: center;
     font-size: 2rem;
 
 }
 
-#parceiros h3,
-.isp {
+#parceiros a {
 
 
     color: white;
+    text-decoration: none;
     
 }
 
