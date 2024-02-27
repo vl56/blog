@@ -14,13 +14,11 @@
 
 #parceiros {
 
-    
     background-color: var(--projetos-color-back);
     height: 700px;
     word-wrap: break-word;
     text-align: center;
     font-size: 2rem;
-
 }
 
 #parceiros a {
@@ -35,29 +33,21 @@
 
 
 .parceiros-isp {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Cria colunas responsivas */
+
+    display: flex; /* Cria colunas responsivas */
     gap: 5px; /* Define o espaço entre as células */
 }
 
 .isp {
 
-    /* Define estilos opcionais para os itens da grade, como bordas, margens, etc. */
-    /*border: 1px solid var(--color-border-img);*/
-    padding: 5px;
-    margin: auto;
+    background-color: var(--footer-color);
+    border-radius: 5px;
+    border: 1px solid var(--color-border-img);
 }
+
 
 .isp img {
 
-    padding: 10px;
-    width: 120px;
+    width: 100%;
     height: auto;
 }
-
-/*
-.isp img {
-    width: 100%; /* Garante que a imagem preencha completamente o espaço do contêiner */
-    height: auto; /* Mantém a proporção da imagem //
-}
-*/
