@@ -7,20 +7,14 @@
     box-sizing: border-box;
 }
 
+/*--- Configuração de Logo da empresa flutuante e vibrante --*/
 
-.minhaImagem img {/*logo tipo ou imagem pessoal*/
 
-    width: 480px;
-    height: 320px;
-    animation: float 2s ease-in-out infinite;
-
-}
 
 .imagem {
 
-    transition: filter 0.3s ease-in-out; /* Adicionando transição suave */
-  }
-
+    transition: filter 0.3s ease-in-out;
+}
 
 .imagem {
 
@@ -29,9 +23,8 @@
 }
 
 
-.imagem { /*IMG DO FUNDO DA LOGO EM FLUTUAÇÃO*/
+.imagem {
 
-    /*background-image: url(/img/logo_plano.jpeg );*/
 
     width: 100%;
     justify-content: center;
@@ -42,6 +35,19 @@
     animation: float 1s;
     
 }
+
+    .minhaImagem img {
+
+        width: 480px;
+        height: 320px;
+        animation: float 2s ease-in-out infinite;
+
+    }
+
+
+
+
+/*-- Configuracao de Texto sobre mim ---*/
 
 
 .texto {
