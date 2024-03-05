@@ -12,7 +12,7 @@
 
 #projetos {
 
-    height: 700px;
+    background-color: var(--projetos-color-back);
     text-align: center;
     font-size: 2rem;
 
@@ -28,23 +28,19 @@
 
 .projetos-isp {
 
-    display: flex; /* Cria colunas responsivas */
-    flex-direction: column;
-    padding: 20px;
+    display: flex;
     flex-wrap: wrap;
-    gap: 5px; /* Define o espaço entre as células */
+    padding: 0 4px;
 }
 
-.pro-isp {
+    .pro-isp {
 
-    background-color: var(--footer-color);
-    border-radius: 5px;
-    border: 1px solid var(--color-border-img);
-}
+        flex: 50%;
+        padding: 0 4px;
+    }
 
+        .pro-isp img {
 
-.pro-isp img {
-
-    width: 50%;
-    height: auto;
-}
+            margin-top: 8px;
+            vertical-align: middle;
+        }

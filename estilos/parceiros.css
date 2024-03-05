@@ -15,17 +15,14 @@
 #parceiros {
 
     background-color: var(--projetos-color-back);
-    height: 700px;
     text-align: center;
     font-size: 2rem;
 }
 
 #parceiros a {
 
-
     color: white;
     text-decoration: none;
-    
 }
 
 /*--- Configuração de IMG dos parceiros ---*/
@@ -34,21 +31,19 @@
 .parceiros-isp {
 
     display: flex; /* Cria colunas responsivas */
-    padding: 20px;
     flex-wrap: wrap;
-    gap: 5px; /* Define o espaço entre as células */
+    padding: 0 4px;
 }
 
-.isp {
+    .isp {
 
-    background-color: var(--footer-color);
-    border-radius: 5px;
-    border: 1px solid var(--color-border-img);
-}
+        flex: 50%;
+        padding: 0 4px;
+    }
 
+        .isp img {
 
-.isp img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
 
-    width: 50%;
-    height: auto;
-}
