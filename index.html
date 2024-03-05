@@ -1,22 +1,29 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="estilos/global.css">
   <title>Document</title>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Inicio</button>
+<button class="tablink" onclick="openPage('Home', this, 'var(--body-color)')">Inicio</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Projetos</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contato</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">Sobre Mim</button>
 
 <div id="Home" class="tabcontent">
-  <h3>INICIO</h3>
-  <p>Home is where the heart is..</p>
+  <!--h3>INICIO</h3>
+  <p>Home is where the heart is..</p-->
+
+  <div class="logo" id="logo-marca">
+    <img src="img/logo01-removebg-preview.png" alt="">
+  </div>
+
+
 </div>
 
 <div id="News" class="tabcontent">
@@ -45,22 +52,22 @@
   
       <div class="mySlides">
         <div class="numbertext">1 / 4</div>
-        <img src="img/grid_montage/falls2.jpg" style="width:100%">
+        <img src="img/dns/Unbound.png" style="width:100%">
       </div>
   
       <div class="mySlides">
         <div class="numbertext">2 / 4</div>
-        <img src="img/grid_montage/mountainskies.jpg" style="width:100%">
+        <img src="img/cacti/cacti-screen.png" style="width:100%">
       </div>
   
       <div class="mySlides">
         <div class="numbertext">3 / 4</div>
-        <img src="img/grid_montage/ocean.jpg" style="width:100%">
+        <img src="img/grafana/grafana01.png" style="width:100%">
       </div>
   
       <div class="mySlides">
         <div class="numbertext">4 / 4</div>
-        <img src="img/grid_montage/placeholder_640x360.webp" style="width:100%">
+        <img src="img/zabbix/dashboard_dark.png" style="width:100%">
       </div>
   
       <!-- Next/previous controls -->
@@ -74,15 +81,15 @@
   
       <!-- Thumbnail image controls -->
       <div class="column">
-        <img class="demo" src="img/grid_montage/falls2.jpg" onclick="currentSlide(1)" alt="Nature">
+        <img class="demo" src="img/grid_montage/placeholder_640x360.webp" onclick="currentSlide(1)" alt="Nature">
       </div>
   
       <div class="column">
-        <img class="demo" src="img/grid_montage/mountainskies.jpg" onclick="currentSlide(2)" alt="Snow">
+        <img class="demo" src="img/grid_montage/placeholder_640x360.webp" onclick="currentSlide(2)" alt="Snow">
       </div>
   
       <div class="column">
-        <img class="demo" src="img/grid_montage/ocean.jpg" onclick="currentSlide(3)" alt="Mountains">
+        <img class="demo" src="img/grid_montage/placeholder_640x360.webp" onclick="currentSlide(3)" alt="Mountains">
       </div>
   
       <div class="column">
@@ -96,11 +103,61 @@
 <div id="Contact" class="tabcontent">
   <h3>CONTATO</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
+
+
 </div>
 
 <div id="About" class="tabcontent">
   <h3>SOBRE MIM</h3>
   <p>Who we are and what we do.</p>
+
+  <div class="about-section">
+    <h1>About Us Page</h1>
+    <p>Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Jane Doe</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>jane@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/img/img_sua01.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>mike@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>John Doe</h2>
+          <p class="title">Designer</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>john@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <script src="script/script_color.js"></script>
 <script src="script/projetos.js"></script>
