@@ -58,6 +58,13 @@
     word-wrap: break-word;
     text-align: start;
     font-size: 2rem;
+    
+
 }
 
+    .texto a {
 
+        text-decoration: none;
+    }
+
+    

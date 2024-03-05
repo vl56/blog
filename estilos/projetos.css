@@ -11,9 +11,8 @@
 
 
 #projetos {
-    
+
     height: 700px;
-    word-wrap: break-word;
     text-align: center;
     font-size: 2rem;
 
@@ -21,7 +20,6 @@
 
 
 #projetos a {
-
 
     color: white;
     text-decoration: none;
@@ -31,7 +29,9 @@
 .projetos-isp {
 
     display: flex; /* Cria colunas responsivas */
+    flex-direction: column;
     padding: 20px;
+    flex-wrap: wrap;
     gap: 5px; /* Define o espaço entre as células */
 }
 
@@ -45,6 +45,6 @@
 
 .pro-isp img {
 
-    width: 100%;
+    width: 50%;
     height: auto;
 }

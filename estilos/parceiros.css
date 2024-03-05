@@ -16,7 +16,6 @@
 
     background-color: var(--projetos-color-back);
     height: 700px;
-    word-wrap: break-word;
     text-align: center;
     font-size: 2rem;
 }
@@ -35,6 +34,8 @@
 .parceiros-isp {
 
     display: flex; /* Cria colunas responsivas */
+    padding: 20px;
+    flex-wrap: wrap;
     gap: 5px; /* Define o espaço entre as células */
 }
 
@@ -48,6 +49,6 @@
 
 .isp img {
 
-    width: 100%;
+    width: 50%;
     height: auto;
 }
