@@ -3,14 +3,15 @@
 /*------------------------------------*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/*-----------------------------*/
-@import "menu-inicial.css";
-@import "logo-texto.css";
-@import "parceiros.css";
+/*-------------- Estilos de cada Marcação de paginas ---------------*/
+
+/*@import "menu-inicial.css";*/
+/*@import "logo-texto.css";*/
+/*@import "parceiros.css";*/
 @import "projetos.css";
-@import "contato.css";
-@import "footer.css";
-@import "form.css";
+/*@import "contato.css";*/
+/*@import "footer.css";*/
+/*@import "form.css";*/
 
 /*-- grade de paletas de cores em HSL e RGB --*/
 
@@ -36,6 +37,7 @@
 }
 
 /*-- Limpando codigos --*/
+
 *{
 
     margin: 0;
@@ -45,11 +47,51 @@
 }
 
 
-/*-- Cor de pagina para Celular --*/
 
-body {
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+#Home {
+    background-color: red;
+}
 
-    background-color: var(--body-color);
+#News {
+    background-color: green;
+}
 
+#Contact {
+    background-color: blue;
+}
 
+#About {
+    background-color: orange;
 }

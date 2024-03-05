@@ -1,181 +1,108 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="estilos/global.css">
-        <link rel="stylesheet" href="media/media-query.css">
-        <link rel="shortcut icon" href="img/favicon_io/favicon-32x32.png" type="image/x-icon">
-        <title>VL56 Consultorias</title>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/global.css">
+  <title>Document</title>
+</head>
+<body>
 
-    <body>
-             <!--adicione aqui um comentario-->
-        <div class="container" >
+<button class="tablink" onclick="openPage('Home', this, 'red')">Inicio</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">Projetos</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contato</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Sobre Mim</button>
 
-                    <nav>
-                        
-                        <div  id="menu">     
-                            <ul class="menu-inicial">
+<div id="Home" class="tabcontent">
+  <h3>INICIO</h3>
+  <p>Home is where the heart is..</p>
+</div>
 
-                                <li><a href="#inicio">Sobre mim</a></li>
-                                <li><a href="#parceiros">Parceiros</a></li>
-                                <li><a href="#projetos">Projetos</a></li>
-                                <li><a href="#contato">Contato</a></li>
-            
-                            </ul>
-                          </div>    
-                        
-                    </nav>
-    
-    
-    
-    
-                    <header>
+<div id="News" class="tabcontent">
+  <h3>PROJETOS</h3>
+  <p>Some news this fine day!</p>
 
-                            <div class="imagem">
-                                 <img id="minhaImagem" src="img/logo01-removebg-preview.png" alt="img-logo-fundo">
-                            </div>
+  <div class="row">
+    <div class="column">
+      <img src="img/grid_montage/falls2.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/grid_montage/mountainskies.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/grid_montage/ocean.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/grid_montage/wallpapersden.com_robot-rain-illustration_640x360.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+  
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="img/grid_montage/falls2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="img/grid_montage/mountainskies.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="img/grid_montage/ocean.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="img/grid_montage/placeholder_640x360.webp" style="width:100%">
+      </div>
+  
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column">
+        <img class="demo" src="img/grid_montage/falls2.jpg" onclick="currentSlide(1)" alt="Nature">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img/grid_montage/mountainskies.jpg" onclick="currentSlide(2)" alt="Snow">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img/grid_montage/ocean.jpg" onclick="currentSlide(3)" alt="Mountains">
+      </div>
+  
+      <div class="column">
+        <img class="demo" src="img/grid_montage/placeholder_640x360.webp" onclick="currentSlide(4)" alt="Lights">
+      </div>
+    </div>
+  </div>
 
-                    </header>
-    
+</div>
 
-    
-            <main>
-                <section class="texto-sobre-mim id"  style="background-color: var(--div-contato-color);">
+<div id="Contact" class="tabcontent">
+  <h3>CONTATO</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
 
-                    
-                      <div class="texto"  id="inicio">
-                        <h3> <a href="index.html">Sobre mim</a> </h3>
-                        <p>
-                            Desde 2018, atuamos com consultoria oferecendo as melhores soluções no mercado, aliando conhecimento e técnica e utilizando da melhor maneira possíveis os recursos disponíveis para provedores de internet.
-                            Nossa missão é utilizar a experiência de nosso time para elevar a qualidade dos serviços oferecidos no mercado, ajudando a conectar ideias e pessoas, buscando constante desenvolvimento e aperfeiçoamento. 
-                            Desta forma, construímos nossa história com redes de relacionamento baseado em resultado e confiança, crescendo cada vez mais solidificados na qualidade de nosso trabalho e dedicação.
-                        </p>
-
-                      </div>
-                        
-                </section>
-
-
-                <section id="parceiros">
-
-                  <h3> <a href="#menu">Parceiros</a></h3><!--Biografia da empresa ou pessoa-->
-
-                  <div class="parceiros-isp">
-
-                    <div class="isp">
-                      <img src="img/grid_montage/falls2.jpg" alt="provedor01">
-                    </div>
-
-                    
-                    <div class="isp">
-                      <img src="img/grid_montage/mountainskies.jpg" alt="provedor02">
-                    </div>
-
-                    
-                    <div class="isp">
-                      <img src="img/grid_montage/ocean.jpg" alt="provedor03">
-                    </div>
-
-                    
-                    <div class="isp">
-                      <img src="img/grid_montage/falls2.jpg" alt="provedor04">
-                    </div>
-
-                  </div>
-                      
-                </section>
-
-
-                <section id="projetos"  style="background-color: var(--html-color);">
-
-                  <h3><a href="#menu">Projetos</a></h3><!--Biografia da empresa ou pessoa-->
-
-                 
-                  <div class="projetos-isp">
-
-                    <div class="pro-isp">
-
-                      <img src="img/grid_montage/falls2.jpg" alt="">
-
-                    </div>
-
-                    
-                    <div class="pro-isp">
-
-                      <img src="img/grid_montage/mountainskies.jpg" alt="">
-
-                    </div>
-
-                    
-                    <div class="pro-isp">
-
-                      <img src="img/grid_montage/ocean.jpg" alt="">
-
-                    </div>
-
-                    
-                    <div class="pro-isp">
-
-                      <img src="img/grid_montage/falls2.jpg" alt="">
-
-                    </div>
-
-                  </div>
-                      
-                </section>
-
-                <section id="contato">
-
-                  <div class="imagem">
-                    <a href="#menu"><div class="minhaImagem-01"><img src="img/img_sua01.jpeg" alt=""></div></a>
-                  </div>
-                  
-                  <div class="info-zap"><span><i class="fa fa-whatsapp"></i><a href="https://wa.me/5581981795111" target="_blank" rel="noopener noreferrer">(81) 98179-5111</a></span></div>
-                  <div class="email"><span><i class="fa fa-whatsapp"></i> vl56fmelo@gmail.com</span></div>
-                  <div class="ticket"><a href="pagina-02.html"><p><i class="fa fa-service"></i>  Abrir ticket de serviços</p></a></div>
-
-                </section>
-
-        
-            </main>
-    
-            
-        </div>
-
-        <footer class="rodape">
-            <div class="footer-item">
-            <a href="https://www.instagram.com/vl56consultorias" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-instagram"></i>Instagram</a>
-            </div>
-          
-            <div class="footer-item">
-            <a href="https://www.facebook.com/vl56consultorias" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-facebook"></i>Facebook</a>
-            
-          
-            </div>
-          
-            <div class="footer-item">
-              <a href="https://www.linkedin.com/in/vl56consultorias" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-linkedin"></i>Linkdin</a>
-            </div>
-          
-            <div class="footer-item">
-            <a href="https://github.com/vl56" target="_blank" rel="noopener noreferrer">
-              <i class="fa fa-github"></i>Github</a>
-            </div>
-            
-          </footer>
-
-
-        <script src="script/slide.js"></script>
-        <script src="script/form.js"></script>
-        <script src="script/parceiros.js"></script>
-        <script src="script/scroll-suave.js"></script>
-        <script src="script/img-vibrante.js"></script>
-
-    </body>
+<div id="About" class="tabcontent">
+  <h3>SOBRE MIM</h3>
+  <p>Who we are and what we do.</p>
+</div>
+<script src="script/script_color.js"></script>
+<script src="script/projetos.js"></script>
+</body>
 </html>
