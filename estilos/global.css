@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-/*------------------------------------*/
+/*------------ Fontes cores e icon -----------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com" crossorigin);
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://www.w3schools.com/lib/w3-colors-highway.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*-------------- Estilos de cada Marcação de paginas ---------------*/
@@ -13,9 +18,10 @@
 /*@import "footer.css";*/
 /*@import "form.css";*/
 
-/*-- grade de paletas de cores em HSL e RGB --*/
+/*-- Paletas de cores em HSL e RGB --*/
 
 :root {
+
   --title-span-color: rgb(24, 78, 129);
   --title-span-color1:hsl(129, 24%, 78%);
   --icon-color: hsl(39, 100%, 50%);
@@ -42,8 +48,7 @@
   --font-large: 1.5rem;
   --font-x-large: 2rem;
   --font-2x-large: 3rem;
-  --font-3x-large: 3.5rem;
-
+  --font-3x-large: 3rem;
   --transition-fast: 0.2s;
 }
 
@@ -52,19 +57,21 @@
 
 html {
   scroll-behavior: smooth;
-  background: #29323c;
+  /*background: #29323c;*/
 }
 
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 3px;
-  background: #29323c;
+  /*background: #29323c;*/
 }
 
 * {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .container {
@@ -124,13 +131,6 @@ body {
   align-items: center;
 
 }
-
-  .logo img {
-    padding: 10px;
-    width: 80%;
-    height: auto;
-    margin: auto;
-  }
 
 .nav-container .links a,
 .nav-container .logo a {
