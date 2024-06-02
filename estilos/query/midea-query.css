@@ -30,6 +30,17 @@
 
      }
 
+     th, td {
+
+        padding: 40px;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 12px;
+        font-family: Arial;
+        border: 1px solid white;
+    }
+    
+
      #luz {
         position: fixed;
         width: 45px;
