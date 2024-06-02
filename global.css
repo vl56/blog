@@ -7,13 +7,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*Estilos de Paginas*/
-@import "/assets/main/estilos/_contato/style.css";
-@import "assets/main/estilos/_menu/style.css";
-@import "assets/main/estilos/_projetos/style.css";
-@import "assets/main/estilos/_rodape/style.css";
-@import "assets/main/estilos/_service/style.css";
-@import "assets/main/estilos/_sobre/style.css";
-@import "assets/main/estilos/query/midea-query.css";
+@import "/estilos/_contato/style.css";
+@import "/estilos/_menu/style.css";
+@import "/estilos/_projetos/style.css";
+@import "/estilos/_rodape/style.css";
+@import "/estilos/_service/style.css";
+@import "/estilos/_sobre/style.css";
+@import "/estilos/query/midea-query.css";
 
 :root {
 
