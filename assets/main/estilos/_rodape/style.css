@@ -1,0 +1,25 @@
+
+footer {
+
+    background: white;
+    display: flex;
+    list-style-type: none;
+    height: 8vh;
+    padding: 10px;
+    margin: 1px;
+
+}
+
+footer a {
+
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+footer a:hover {
+
+    transition: 1s;
+    color: blue;
+}

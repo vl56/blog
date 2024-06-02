@@ -1,0 +1,9 @@
+
+#service {
+    display: flex;
+    height: 100vh;
+    padding: 15%;
+    margin: auto;
+    font-size: 48px;
+    color: #fff;
+  }

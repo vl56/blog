@@ -1,0 +1,79 @@
+
+
+/*Configuração de estilo do Menu*/
+body {
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*-webkit-box-shadow: 0px 3px 5px 0px rgba(150, 250, 60, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(150, 250, 60, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(150, 250, 60, 0.75);*/
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .menu ul li:hover > a {
+    background-color: #555;
+  }
+  
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .menu ul ul li {
+    display: block;
+  }
+  
+  .menu ul ul li a {
+    padding: 10px 20px;
+  }
+  
+  .menu ul li:hover > ul {
+    display: block;
+    opacity: 1;
+  }
+  
+
+/*Configuração de estilo da rede social do Menu*/
+.social {
+  background: white;
+  padding: 5px;
+  margin:1px;
+  list-style-type: none;
+}
+
+.social a {
+  color: black;
+  padding: 10px;
+  margin: 5px;
+
+}

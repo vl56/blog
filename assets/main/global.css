@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*-- GOOGLE FONTS --*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*-- fONT Icons --*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*Estilos de Paginas*/
+@import "estilos/_menu/style.css";
+@import "estilos/_sobre/style.css";
+@import "estilos/_service/style.css";
+@import "estilos/_projetos/style.css";
+@import "estilos/_contato/style.css";
+@import "estilos/_rodape/style.css";
+@import "query/midea-query.css";
+
+:root {
+
+
+    /*-- Fontes de Pagina --*/
+
+    --font-medium: 1em;
+    --font-medium-large: 1.25em;
+    --font-large: 1.5rem;
+    --font-x-large: 2rem;
+    --font-2x-large: 3rem;
+    --font-3x-large: 5.5rem;
+  
+    --transition-fast: 0.2s;
+    --transition-deley: 1s;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    letter-spacing: 3px;
+    background:rgb(10, 10, 10);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+#agenda-nav {
+
+    background: black;
+    margin: 1px;
+    padding: 1px;
+}
+.agenda {
+
+    background: linear-gradient(180deg, rgb(238, 240, 243) 0%, rgb(10, 10, 10) 100%);
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+    .agenda a {
+
+        background: #737373;
+        border:1px  solid white;
+        padding: 1px;
+        margin: 1px;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .agenda a:hover {
+
+        background: #606060;
+        border-radius: 12px;
+        border:1px  solid white;
+        color: black;
+    }
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
