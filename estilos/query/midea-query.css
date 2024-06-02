@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
 
     body {
         background: linear-gradient(180deg, rgba(54,92,140,1) 0%, rgba(7,19,35,1) 100%);
@@ -8,7 +8,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
     body {
         background: linear-gradient(180deg, rgb(238, 240, 243) 0%, rgb(10, 10, 10) 100%);
@@ -35,8 +35,5 @@
         width: 45px;
         align-items: center;
      }
-
-
-
 
   }

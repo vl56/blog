@@ -1,10 +1,12 @@
 
 .texto {
+
     font-family: Arial, sans-serif;
     background-image: url(/assets/main/img/_img_sobre_/ideia-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
   }
   
   #luz {
@@ -16,13 +18,14 @@
 
 
   .perfil img {
+
     display: block;
     width: 280px;
     justify-content: center;
     align-items: center;
     opacity: 0;
     animation: fall 1.5s forwards;
-    /*filter: drop-shadow(6px 4px 6px  gold);*/
+    filter: drop-shadow(6px 4px 6px  #737373);
 
   }
 
