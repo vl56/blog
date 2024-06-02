@@ -34,7 +34,8 @@ body {
   }
   
   .menu ul li:hover > a {
-    background-color: #555;
+    background-color: gold;
+    transition: 1s;
   }
   
   .menu ul ul {
