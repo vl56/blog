@@ -78,6 +78,7 @@ body {
 */
 .nav-container {
   margin: 0 auto;
+  padding: 5px;
   height: 100%;
   display: flex;
   background: white;
@@ -102,7 +103,7 @@ a {
   font-size: var(--font-medium);
 }
 
-a:hover {
+.links a:hover {
   font-size: var(--font-large);
   color: gold;
 }
