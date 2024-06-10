@@ -1,1 +1,1 @@
-<h1>Site em Desenvolvimento</h1>
+<h1 style="color:red; font-size:40px;">Site em Desenvolvimento!</h1>
