@@ -1,24 +1,24 @@
-*TRILHA DIGITAL | CODERS 24 | BACK END
+#TRILHA DIGITAL | CODERS 24 | BACK END
 
-** Sobre o Curso
+## Sobre o Curso
 
-** A trilha de cursos digitais de "Back End", 
-** preparada pela Ada especialmente para o Santander Coders, 
-** oferece uma base sólida de conteúdos para quem deseja se 
-** especializar no desenvolvimento de servidores e sistemas 
-** robustos: Git e versionamento e fundamentos de redes, para 
-** gestão de código e infraestrutura; Java e programação orientada 
-** a objetos, fundamentais para desenvolver aplicações escaláveis; 
-** bancos de dados, estruturas de dados, introdução a algoritmos e 
-** design patterns, para a criação soluções bem estruturadas. Ainda, 
-** ao longo da trilha, você terá acesso a exercícios para fixar os 
-** conteúdos aprendidos. Aproveite e bons estudos! 
+* A trilha de cursos digitais de "Back End", 
+* preparada pela Ada especialmente para o Santander Coders, 
+* oferece uma base sólida de conteúdos para quem deseja se 
+* especializar no desenvolvimento de servidores e sistemas 
+*  robustos: Git e versionamento e fundamentos de redes, para 
+* gestão de código e infraestrutura; Java e programação orientada 
+* a objetos, fundamentais para desenvolver aplicações escaláveis; 
+* bancos de dados, estruturas de dados, introdução a algoritmos e 
+* design patterns, para a criação soluções bem estruturadas. Ainda, 
+* ao longo da trilha, você terá acesso a exercícios para fixar os 
+* conteúdos aprendidos. Aproveite e bons estudos! 
 
-*MODULOS
+#MODULOS
 
-* Git e Versionamente
-** 10 aulas
-# 1
+## Git e Versionamente
+* 10 aulas
+* 1
 # 2
 # 3
 # 4
