@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(45deg, cyan,black);
+        }
+    </style>
+</head>
+<body>
+
 <h1><a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END</h1> 
 
 <h2>Sobre o Curso</h2> 
@@ -128,3 +141,6 @@
 <p><pre>8</pre></p>
 <p><pre>9</pre></p>
 <p><pre>10</pre></p>
+
+</body>
+</html>
