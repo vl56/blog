@@ -11,7 +11,7 @@
 
 <h2>Sobre o Curso</h2> 
 
-<p> A trilha de cursos digitais de <h2><pre>"Back End"</pre></h2>, 
+<p> A trilha de cursos digitais de <h2>"Back End"</h2>, 
     preparada pela Ada especialmente para o Santander Coders, 
     oferece uma base sólida de conteúdos para quem deseja se 
     especializar no desenvolvimento de servidores e sistemas 
