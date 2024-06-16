@@ -1,6 +1,13 @@
-# <a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1><a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END </h1> 
 
-## Sobre o Curso
+<h2>Sobre o Curso</h2> 
 
 * A trilha de cursos digitais de "Back End", 
 * preparada pela Ada especialmente para o Santander Coders, 
@@ -112,9 +119,9 @@
 * 10
 * 12
 
-## Design Patterns em Java
-## 10 aulas
-
+<h1>Design Patterns em Java</h1> 
+<h2>10 aulas</h2>
+<p><pre>*</pre> 1</p>
 * 1
 * 2
 * 3
@@ -126,3 +133,6 @@
 * 9
 * 10
 * 10
+
+</body>
+</html>
