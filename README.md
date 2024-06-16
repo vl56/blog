@@ -1,138 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1><a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END </h1> 
+<h1><a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END</h1> 
 
 <h2>Sobre o Curso</h2> 
 
-* A trilha de cursos digitais de "Back End", 
-* preparada pela Ada especialmente para o Santander Coders, 
-* oferece uma base sólida de conteúdos para quem deseja se 
-* especializar no desenvolvimento de servidores e sistemas 
-*  robustos: Git e versionamento e fundamentos de redes, para 
-* gestão de código e infraestrutura; Java e programação orientada 
-* a objetos, fundamentais para desenvolver aplicações escaláveis; 
-* bancos de dados, estruturas de dados, introdução a algoritmos e 
-* design patterns, para a criação soluções bem estruturadas. Ainda, 
-* ao longo da trilha, você terá acesso a exercícios para fixar os 
-* conteúdos aprendidos. Aproveite e bons estudos! 
+<p> A trilha de cursos digitais de "Back End", 
+    preparada pela Ada especialmente para o Santander Coders, 
+    oferece uma base sólida de conteúdos para quem deseja se 
+    especializar no desenvolvimento de servidores e sistemas 
+    robustos: Git e versionamento e fundamentos de redes, para 
+    gestão de código e infraestrutura; Java e programação orientada 
+    a objetos, fundamentais para desenvolver aplicações escaláveis; 
+    bancos de dados, estruturas de dados, introdução a algoritmos e 
+    design patterns, para a criação soluções bem estruturadas. Ainda, 
+    ao longo da trilha, você terá acesso a exercícios para fixar os 
+    conteúdos aprendidos. Aproveite e bons estudos!</p>
+ 
 
-# MODULOS
+<h1>MODULOS</h1> 
 
-## Git e Versionamente
-## 10 aulas
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
+<h2>Git e Versionamente</h2> 
+<h3><pre>10 aulas</pre></h3>
 
-## Redes e Sistemas
-## 10 aulas
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
+<h2>Redes e Sistemas</h2> 
+<h3><pre>10 aulas</pre></h3>
 
-## Introdução ao Java
-## 9 aulas
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
+<h2>Introdução ao Java</h2> 
+<h3><pre>9 aulas</pre></h3> 
 
-## Program Orientada e Objetos Basicos em Java
-## 10 aulas
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
+<h2>Program Orientada e Objetos Basicos em Java</h2> 
+<h3><pre>10 aulas</pre></h3> 
 
-## Banco de dados
-## 12 aulas
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
-* 12
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
 
-## Introdução a estrutura de dados
-## 7 aulas
+<h2>Banco de dados</h2> 
+<h3><pre>12 aulas</pre></h3>
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
 
-## Introdução a algoritimos
-## 12 aulas
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
 
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
-* 12
+<h2>Introdução a estrutura de dados</h2>
+<h3><pre>7 aulas</pre></h3>
 
-<h1>Design Patterns em Java</h1> 
-<h2>10 aulas</h2>
-<p><pre>*</pre> 1</p>
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
-* 8
-* 9
-* 10
-* 10
 
-</body>
-</html>
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+
+
+<h2>Introdução a algoritimos</h2>
+<h3><pre>12 aulas</pre></h3>
+
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
+
+<h2>Design Patterns em Java</h2> 
+<h3><pre>10 aulas</pre></h3>
+
+<p><pre>1</pre></p>
+<p><pre>2</pre></p>
+<p><pre>3</pre></p>
+<p><pre>4</pre></p>
+<p><pre>5</pre></p>
+<p><pre>6</pre></p>
+<p><pre>7</pre></p>
+<p><pre>8</pre></p>
+<p><pre>9</pre></p>
+<p><pre>10</pre></p>
