@@ -1,4 +1,4 @@
-# <a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a>| CODERS 24 | BACK END 
+# <a href="https://app.santanderopenacademy.com" target="_blank" rel="noopener noreferrer">TRILHA DIGITAL</a> | CODERS 24 | BACK END 
 
 ## Sobre o Curso
 
