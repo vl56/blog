@@ -1,4 +1,4 @@
-#TRILHA DIGITAL | CODERS 24 | BACK END
+# TRILHA DIGITAL | CODERS 24 | BACK END
 
 ## Sobre o Curso
 
@@ -14,110 +14,115 @@
 * ao longo da trilha, você terá acesso a exercícios para fixar os 
 * conteúdos aprendidos. Aproveite e bons estudos! 
 
-#MODULOS
+# MODULOS
 
 ## Git e Versionamente
-* 10 aulas
+## 10 aulas
 * 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
 
-* Redes e Sistemas
-** 10 aulas
+## Redes e Sistemas
+## 10 aulas
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
 
-* Introdução ao Java
-** 9 aulas
+## Introdução ao Java
+## 9 aulas
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
 
-* Program Orientada e Objetos Basicos em Java
-** 10 aulas
+## Program Orientada e Objetos Basicos em Java
+## 10 aulas
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
 
-* Banco de dados
-** 12 aulas
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
-# 12
+## Banco de dados
+## 12 aulas
 
-* Introdução a estrutura de dados
-** 7 aulas
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
+* 12
 
-* Introdução a algoritimos
-** 12 aulas
+## Introdução a estrutura de dados
+## 7 aulas
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
 
-* Design Patterns em Java
-** 10 aulas
+## Introdução a algoritimos
+## 12 aulas
 
-# 1
-# 2
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
+* 12
+
+## Design Patterns em Java
+## 10 aulas
+
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
+* 8
+* 9
+* 10
+* 10
